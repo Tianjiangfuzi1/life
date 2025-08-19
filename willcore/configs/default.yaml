@@ -1,0 +1,15 @@
+env:
+  kind: gridworld
+  w: 12
+  h: 12
+  food: 6
+  traps: 6
+  walls: 10
+  energy: 80
+  view: 3
+agent:
+  t_min: 6
+  switching_cost: 0.8
+run:
+  seed: 0
+  max_steps: 200
